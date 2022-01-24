@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stopwatch App</title>
+</head>
+
+<body>
+   
+    <!-- title -->
+    <div class="container-fluid">
+        <div class="header">
+            StopWatch
+        </div>
+    </div>
+    <!-- laptime -->
+    <div id="lap"><span id="lapminute">00</span> :
+        <span id="lapsecond">00</span> :
+        <span id="lapcentsecond">00 </span>
+    </div>
+
+    <!-- time -->
+    <div id="time"><span id="timeminute">00</span> :
+        <span id="timesecond">00</span> :
+        <span id="timecentsecond">00 </span>
+    </div>
+
+    <!--Controls-->
+    <div class="controlsContainer">
+        <div class="container" >
+            <div class="row d-flex justify-content-center">
+                <div class="col-2  ">
+                    <div id="startButton" class="control">
+                        Start
+                    </div>
+                    <div id="stopButton" class="control">
+                        Stop
+                    </div>
+                    <div id="resumeButton" class="control">
+                        Resume
+                    </div>
+                </div>
+                <div class="col-2">
+                    <div id="lapButton" class="control">
+                        Lap
+                    </div>
+                    <div id="resetButton" class="control">
+                        Reset
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+    <!--Laps-->
+    <div id="laps"></div>
+
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+<!-- 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.min.js"
+        integrity="sha384-PsUw7Xwds7x08Ew3exXhqzbhuEYmA2xnwc8BuD6SEr+UmEHlX8/MCltYEodzWA4u"
+        crossorigin="anonymous"></script> -->
+      
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+       
+        <script src="stopwatch.js"></script>
+
+
+</body>
+
+</html>
